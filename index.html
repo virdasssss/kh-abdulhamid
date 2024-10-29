@@ -69,40 +69,34 @@
 	        </div>
 	      </div>
     </section>
-
-    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
-    	<div class="container">
-    		<div class="row d-flex">
-    			<div class="col-md-6 col-lg-5 d-flex">
-    				<div class="img-about img d-flex align-items-stretch">
-    					<div class="overlay"></div>
-	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/);">
-	    				</div>
-    				</div>
-    			</div>
     <section class="ftco-section" id="resume-section">
     <div class="container">
-        <div class="row justify-content-center mb-5 pb-0"> <!-- Ubah pb-5 menjadi pb-3 -->
+        <div class="row justify-content-center mb-5 pb-3"> <!-- Changed pb-5 to pb-3 -->
             <div class="col-md-7 heading-section text-center ftco-animate">
                 <h1 class="big big-2">Galeri</h1>
                 <h2 class="mb-4">Galeri Dakwah</h2>
             </div>
         </div>
-        <div class="container">
-    <div class="row">
-        <!-- Repeat this block for 3x3 grid -->
-        <div class="col-md-4 d-flex ftco-animate">
-            <div class="blog-entry justify-content-end position-relative">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/pTGJNZ4pLAw?si=3to0e6JkoNASv8-S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <div class="video-title">
-                    <h3>6 Hal yang dirahasiakan Allah SWT. Eps. 2</h3>
+        <div class="row justify-content-center"> <!-- Center the row -->
+            <!-- Repeat this block for 3x3 grid -->
+            <div class="col-md-4 d-flex ftco-animate justify-content-center">
+                <div class="blog-entry position-relative">
+                    <iframe class="video-embed" src="https://www.youtube.com/embed/pTGJNZ4pLAw?si=3to0e6JkoNASv8-S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="video-title">
+                        <h3>6 Hal yang dirahasiakan Allah SWT. Eps. 2</h3>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</section>
 
 <style>
+    .video-embed {
+        width: 100%; /* Set width to 100% for responsiveness */
+        height: 315px; /* Maintain landscape aspect ratio */
+    }
+
     .video-title {
         position: absolute;
         top: -50px; /* Mulai di atas video */
@@ -120,12 +114,6 @@
         opacity: 1; /* Tampilkan saat hover */
     }
 </style>
-
-
-        </div>
-    </div>
-</section>
-
 <section class="ftco-section" id="services-section">
     <div class="container">
         <div class="row justify-content-center py-5 mt-0"> <!-- Ubah mt-5 menjadi mt-3 -->
